@@ -4,10 +4,10 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: light --default
+  themes: dark --default
 }
 
-body{
+body {
   scroll-behavior: smooth;
 }
 
@@ -23,9 +23,9 @@ body{
   font-style: normal;
 }
 
-.manrope{
+.manrope {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
