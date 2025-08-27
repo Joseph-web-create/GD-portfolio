@@ -10,7 +10,7 @@ function Header() {
   };
   return (
     <div className="mx-auto max-w-[1440px] ">
-      <div className="flex justify-between items-center lg:py-6 px-3 py-6 text-[#C7C7C7] relative">
+      <div className="flex justify-between items-center lg:py-6 px-3 py-6 text-[#C7C7C7] relative ">
         <h1 className="bebas-neue-regular text-[32px] hover:text-[#BBBBBB] cursor-pointer">
           Joseph ThankGod
         </h1>
@@ -73,7 +73,7 @@ function Header() {
 
       <div className="flex items-center flex-col lg:flex-row  justify-between w-full lg:px-12 lg:py-6 px-3 mt-6">
         <div>
-          <h1 className="bebas-neue-regular lg:text-[101px] text-[57px] lg:leading-[90px] leading-[65px]">
+          <h1 className="bebas-neue-regular lg:text-[101px] text-[57px] lg:leading-[90px] leading-[65px] text-[#FFFFFF]">
             HI, I AM <br /> JOSEPH THANKGOD
           </h1>
           <p className="text-[#C7C7C7] manrope text-[16px] lg:text-[18px]">
