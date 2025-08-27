@@ -7,7 +7,7 @@
   themes: dark --default
 }
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
