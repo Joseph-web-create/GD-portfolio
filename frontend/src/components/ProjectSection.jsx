@@ -20,35 +20,34 @@ function ProjectSection() {
 
       {/* Projects */}
 
-      <div className="flex items-center justify-center flex-col mt-16 gap-20">
-        <div className=" flex flex-col lg:flex-row items-center  justify-between gap-12">
-          <div className="w-[393px] h-[380px] lg:w-[600px] lg:h-[600px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative">
-            <div className="flex items-center justify-center   bg-[#0A0A0A] rounded-full absolute top-6 lg:top-10 p-3 lg:left-10 left-4 ">
-              <p className="text-white manrope text-sm">Team work</p>
-            </div>
+      <div className="flex flex-col mt-16 gap-20">
+        <div className="flex flex-col lg:flex-row items-center   gap-12">
+          <div className="px-1 lg:px-0 w-[100%] lg:w-[600px]">
+            <div className="w-[100%] max-w-[700px] h-[430px] lg:w-[600px] lg:h-[500px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative">
+              <div className="flex items-center justify-center bg-[#0A0A0A] rounded-full absolute top-2 lg:top-10 p-3 lg:left-10 left-6 ">
+                <p className="text-white manrope text-sm">Team work</p>
+              </div>
 
-            <img
-              src={instashot}
-              alt="Instashot"
-              className="w-[343px] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover"
-            />
+              <img
+                src={instashot}
+                alt="Instashot"
+                className="w-[90%] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover "
+              />
+            </div>
           </div>
 
           {/* Text Content */}
-          <div className="w-full lg:w-1/2 manrope flex flex-col gap-6 px-2">
+          <div className=" lg:w-1/2 manrope flex flex-col gap-6 px-1">
             <h2 className="text-white text-[24px] lg:text-[32px] leading-[110%]">
-              Developed an Instagram clone with full functionality, including
-              account creation, image uploads, likes, comments, and real-time
-              updates.
+              Built an Instagram clone with authentication, media uploads, and
+              real time features.
             </h2>
-            <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-relaxed">
-              Teamed up with a designer and fellow developers to build a fully
-              functional Instagram clone as part of my learning process in full
-              stack development. This project gave me hands on experience with
-              user authentication, image uploads, likes, comments, and
-              responsive design. Beyond the technical skills, it also
-              strengthened my collaboration and problem-solving abilities,
-              making it a key milestone in my growth as a developer.
+            <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-[150%] relaxed">
+              Collaborated with a designer and developers to build a fully
+              functional Instagram clone, featuring authentication, image
+              uploads, likes, comments, and responsive design. The project
+              strengthened my full stack skills, teamwork, and problem-solving
+              abilities, marking a key milestone in my growth as a developer.
             </p>
 
             {/* Project Info */}
@@ -70,8 +69,8 @@ function ProjectSection() {
                 target="_blank"
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
-                LIVE DEMO{" "}
-                <i className="ri-arrow-right-up-line text-2xl ml-2"></i>
+                LIVE DEMO
+                <i className="ri-arrow-right-up-line  text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
 
@@ -81,7 +80,7 @@ function ProjectSection() {
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
                 SEE ON GITHUB
-                <i className="fa-brands fa-github text-2xl ml-2"></i>
+                <i className="fa-brands fa-github  text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
             </div>
@@ -89,18 +88,19 @@ function ProjectSection() {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div className="w-[393px] h-[380px] lg:w-[600px] lg:h-[600px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative">
-            <img
-              src={shortly}
-              alt="Shortly"
-              className="w-[343px] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover"
-            />
+          <div className="px-1 lg:px-0 w-[100%] lg:w-[600px]">
+            <div className="w-[100%] max-w-[700px] h-[380px] lg:w-[600px] lg:h-[500px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative ">
+              <img
+                src={shortly}
+                alt="Shortly"
+                className="w-[90%] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover"
+              />
+            </div>
           </div>
-
           {/* Text Content */}
-          <div className="w-full lg:w-1/2 manrope flex flex-col gap-6 px-2">
+          <div className=" lg:w-1/2 manrope flex flex-col gap-6 px-1">
             <h2 className="text-white text-[24px] lg:text-[32px] leading-[150%]">
-              Shortly, <br /> Shorten long links into simple, shareable URLs
+              Simplify long links into short, shareable URLs.
             </h2>
 
             <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-relaxed">
@@ -129,7 +129,7 @@ function ProjectSection() {
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
                 LIVE DEMO
-                <i className="ri-arrow-right-up-line text-2xl ml-2"></i>
+                <i className="ri-arrow-right-up-line  text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
 
@@ -139,7 +139,7 @@ function ProjectSection() {
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
                 SEE ON GITHUB
-                <i className="fa-brands fa-github text-2xl ml-2"></i>
+                <i className="fa-brands fa-github  text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
             </div>
@@ -147,28 +147,27 @@ function ProjectSection() {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div className="w-[393px] h-[380px] lg:w-[600px] lg:h-[600px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative">
-            <img
-              src={House}
-              alt="House Renter"
-              className="w-[343px] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover"
-            />
+          <div className="px-1 lg:px-0 w-[100%] lg:w-[600px]">
+            <div className="w-[100%] max-w-[700px] h-[380px] lg:w-[600px] lg:h-[500px] bg-[#1A1A1A] rounded-[12px] flex flex-col justify-center items-center  relative ">
+              <img
+                src={House}
+                alt="House Renter"
+                className="w-[90%] max-w-[486px] lg:w-[486px] h-auto rounded-[12px] object-cover"
+              />
+            </div>
           </div>
 
           {/* Text Content */}
-          <div className="w-full lg:w-1/2 manrope flex flex-col gap-6 px-2">
+          <div className=" lg:w-1/2 manrope flex flex-col gap-6 px-1">
             <h2 className="text-white text-[24px] lg:text-[32px] leading-[150%]">
               House Rental Platform
             </h2>
 
             <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-relaxed">
-              Completed as part of my internship, I designed and developed a
-              responsive house rental platform with both Front End and Back End
-              functionality. The platform featured intuitive property listings,
-              a smooth booking flow, and user-friendly navigation. This project
-              strengthened my full stack development skills, deepened my
-              understanding of accessibility, and provided hands-on experience
-              in building scalable, real-world web solutions.
+              Built a full stack responsive house rental platform during my
+              internship, featuring property listings, booking flow, and
+              seamless navigation. The project enhanced my full stack skills,
+              accessibility knowledge, and experience in scalable web solutions.
             </p>
 
             {/* Project Info */}
@@ -190,7 +189,7 @@ function ProjectSection() {
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
                 LIVE DEMO
-                <i className="ri-arrow-right-up-line text-2xl ml-2"></i>
+                <i className="ri-arrow-right-up-line  text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
 
@@ -200,7 +199,7 @@ function ProjectSection() {
                 className="text-[#D3E97A] hover:text-[#BDD166]"
               >
                 SEE ON GITHUB
-                <i className="fa-brands fa-github text-2xl ml-2"></i>
+                <i className="fa-brands fa-github text-[18px] ml-2"></i>
                 <div className="divider bg-[#D3E97A] hover:text-[#BDD166] h-[2px] mt-0" />
               </a>
             </div>
