@@ -48,10 +48,18 @@ function Layout() {
                   >
                     Work
                   </a>
-                  <Link to="about-me" className="hover:text-[#BBBBBB]">
+                  <Link
+                    to="about-me"
+                    className="hover:text-[#BBBBBB]"
+                    onClick={menuFunction}
+                  >
                     About
                   </Link>
-                  <a href="#contact" className="hover:text-[#BBBBBB]">
+                  <a
+                    href="#contact"
+                    className="hover:text-[#BBBBBB]"
+                    onClick={menuFunction}
+                  >
                     Contact
                   </a>
                 </nav>
