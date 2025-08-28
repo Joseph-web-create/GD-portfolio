@@ -6,14 +6,14 @@ function AboutMe() {
     {
       title: "HTML",
       lg: "124px",
-      sm: "87px",
+      sm: "97px",
       icon: "ri-html5-fill",
       color: "#E34F26",
     },
     {
       title: "CSS",
       lg: "114px",
-      sm: "78px",
+      sm: "98px",
       icon: "ri-css3-fill",
       color: "#1572B6",
     },
@@ -27,7 +27,7 @@ function AboutMe() {
     {
       title: "React & React Native",
       lg: "220px",
-      sm: "165px",
+      sm: "215px",
       icon: "ri-reactjs-line",
       color: "#61DAFB",
     },
@@ -41,7 +41,7 @@ function AboutMe() {
     {
       title: "NEXT.js",
       lg: "129px",
-      sm: "91px",
+      sm: "110px",
       icon: "ri-nextjs-fill",
       color: "#FFFFFF",
     },
