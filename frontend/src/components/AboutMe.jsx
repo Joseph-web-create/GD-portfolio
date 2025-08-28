@@ -4,7 +4,7 @@ import img from "../assets/profile3.jpeg";
 const AboutMe = () => {
   return (
     <div className="mx-auto max-w-[1440px]" id="about">
-      <div className="flex flex-col lg:flex-row justify-between pb-60 pt-15 px-4">
+      <div className="flex flex-col lg:flex-row justify-between lg:pb-60 pt-15 px-4">
         <h2 className="text-[42px] lg:text-[101px] text-[#FFFFFF] bebas-neue-regular">
           About me
         </h2>
@@ -15,7 +15,7 @@ const AboutMe = () => {
           </p>
 
           <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] manrope">
-            I specialize in building scalable, accessible, and user-friendly
+            I specialize in building scalable, accessible, and user friendly
             solutions using <strong>React</strong> and <strong>Next.js</strong>.
             With a strong foundation in both <strong>Front end</strong> and
             <strong> Back end</strong> development, I aim to create products

@@ -50,7 +50,7 @@ function Form() {
   };
 
   return (
-    <div className="mx-w-[600px] px-2">
+    <div className="mx-w-[600px] px-4">
       <form className="flex flex-col gap-6" onSubmit={handleSubmit(submitFomr)}>
         <div className="flex flex-col gap-4">
           <label htmlFor="name" className="text-[#C7C7C7] text-[16px]">
@@ -58,7 +58,7 @@ function Form() {
           </label>
           <input
             type="text"
-            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[420px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
+            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[450px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
             id="name"
             placeholder="e.g, John Doe"
             {...register("name", { validate: (name) => validateName(name) })}
@@ -75,7 +75,7 @@ function Form() {
           </label>
           <input
             type="email"
-            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[420px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
+            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[450px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
             id="email"
             placeholder="e.g, JohnDoe@gmail.com"
             {...register("email", {
@@ -94,7 +94,7 @@ function Form() {
           </label>
           <input
             type="text"
-            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[420px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
+            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[450px] h-[51px] px-2 rounded-[4px] focus:border focus:border-[#BDD166] outline-none"
             id="subject"
             placeholder="e.g, Let's Work Together"
             {...register("subject", {
@@ -114,7 +114,7 @@ function Form() {
           </label>
 
           <textarea
-            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[420px]  px-2 py-1 rounded-[4px] focus:border focus:border-[#BDD166] outline-none h-[156px] max-h-[300px]"
+            className="bg-[#1A1A1A] text-[#FFFFFF] lg:w-[450px]  px-2 py-1 rounded-[4px] focus:border focus:border-[#BDD166] outline-none h-[156px] max-h-[300px]"
             id="message"
             placeholder="e.g, Hi, I’d love to work with you on a project. Here are the details..."
             {...register("message", {
@@ -129,7 +129,7 @@ function Form() {
         </div>
 
         <button
-          className={`w-[140px] h-[54px] rounded-full text-black 
+          className={`w-[140px] h-[54px] rounded-full text-black z-10
     ${
       isSubmitting
         ? "bg-gray-500 cursor-not-allowed hover:bg-gray-400"
