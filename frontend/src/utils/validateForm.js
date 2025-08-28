@@ -15,6 +15,11 @@ export const validateSubject = (subject) => {
   return null;
 };
 
+export const validateMessage = (message) => {
+  if (!message) return "Message is required.";
+  return null;
+};
+
 export const validateEmail = (email) => {
   const validRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
   if (!email) {
