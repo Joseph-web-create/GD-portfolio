@@ -18,9 +18,24 @@ function Layout() {
             </h1>
           </Link>
           <div className="lg:flex gap-10 items-center inter hidden">
-            <a href="#work" className="hover:text-[#BBBBBB]">
-              Work
-            </a>
+            <Link
+              to={"/"}
+              className={`${
+                location.pathname === "/" && "font-bold"
+              } hover:text-[#BBBBBB]`}
+            >
+              Home
+            </Link>
+
+            {location.pathname === "/about-me" ? (
+              <Link to={"/"} className="hover:text-[#BBBBBB]">
+                Work
+              </Link>
+            ) : (
+              <a href="#work" className="hover:text-[#BBBBBB]">
+                Work
+              </a>
+            )}
 
             <Link to={"about-me"} className="hover:text-[#BBBBBB]">
               About
