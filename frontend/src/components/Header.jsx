@@ -3,7 +3,7 @@ import img from "../assets/Profile.jpeg";
 function Header() {
   return (
     <div className="mx-auto max-w-[1440px] ">
-      <div className="flex items-center flex-col lg:flex-row  justify-between w-full lg:px-12 lg:py-6 px-3 mt-6">
+      <div className="flex items-center flex-col lg:flex-row md:flex-row   justify-between w-full lg:px-12 lg:py-6 px-3 mt-6">
         <div>
           <h1 className="bebas-neue-regular lg:text-[101px] text-[57px] lg:leading-[90px] leading-[65px] text-[#FFFFFF]">
             HI, I AM <br /> JOSEPH THANKGOD
@@ -13,7 +13,7 @@ function Header() {
             scalable, accessible, and user friendly applications.
           </p>
 
-          <div className="flex items-center gap-3 mt-6 ">
+          <div className="flex items-center gap-3 mt-6 md:flex-row">
             <a
               className="flex bg-[#D3E97A]  hover:bg-[#BDD166] w-[163px] lg:w-[187px] gap-6 justify-center items-center h-[48px] lg:h-[54px] rounded-full "
               href="#contact"
@@ -27,7 +27,7 @@ function Header() {
               </div>
             </a>
 
-            <div className="flex gap-3 items-center">
+            <div className="flex gap-3 items-center md:flex-col lg:flex-row">
               <a
                 href="https://www.linkedin.com/in/joseph-thankgod-3b3a08308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 target="_blank"
