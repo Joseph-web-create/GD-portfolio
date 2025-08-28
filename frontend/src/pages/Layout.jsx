@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Link, Outlet } from "react-router";
+import { Link, Outlet, useLocation } from "react-router";
 
 function Layout() {
   const [showMenu, setShowMenu] = useState(false);
+  const location = useLocation();
 
   const menuFunction = () => {
     setShowMenu((prev) => !prev);
@@ -20,6 +21,7 @@ function Layout() {
             <a href="#work" className="hover:text-[#BBBBBB]">
               Work
             </a>
+
             <Link to={"about-me"} className="hover:text-[#BBBBBB]">
               About
             </Link>
@@ -41,13 +43,33 @@ function Layout() {
                 </button>
 
                 <nav className="mt-12 lg:hidden flex flex-col gap-5 inter text-left">
-                  <a
-                    href="#work"
-                    className="hover:text-[#BBBBBB]"
-                    onClick={menuFunction}
-                  >
-                    Work
-                  </a>
+                  {location.pathname === "/about-me" && (
+                    <Link
+                      to={"/"}
+                      className="hover:text-[#BBBBBB]"
+                      onClick={menuFunction}
+                    >
+                      Home
+                    </Link>
+                  )}
+                  {location.pathname === "/about-me" ? (
+                    <Link
+                      to={"/"}
+                      className="hover:text-[#BBBBBB]"
+                      onClick={menuFunction}
+                    >
+                      Work
+                    </Link>
+                  ) : (
+                    <a
+                      href="#work"
+                      className="hover:text-[#BBBBBB]"
+                      onClick={menuFunction}
+                    >
+                      Work
+                    </a>
+                  )}
+
                   <Link
                     to="about-me"
                     className="hover:text-[#BBBBBB]"
