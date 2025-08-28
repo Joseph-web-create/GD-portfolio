@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="512" height="512" rx="96" fill="#000000"/>
+
+  <!-- Cyan J -->
+  <text x="40%" y="55%" 
+        text-anchor="middle" 
+        dominant-baseline="central" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-weight="bold" 
+        font-size="280" 
+        fill="#06B6D4">
+    J
+  </text>
+
+  <!-- Small cyan code brackets icon -->
+  <text x="72%" y="55%" 
+        text-anchor="middle" 
+        dominant-baseline="central" 
+        font-family="monospace" 
+        font-size="120" 
+        fill="#06B6D4">
+    {}
+  </text>
+</svg>
