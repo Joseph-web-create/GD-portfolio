@@ -82,15 +82,16 @@ function AboutMe() {
             </p>
             <div className="flex items-center gap-3 mt-6 md:flex-row">
               <a
-                className="flex bg-[#D3E97A]  hover:bg-[#BDD166] w-[163px] lg:w-[187px] gap-6 justify-center items-center h-[48px] lg:h-[54px] rounded-full "
-                href="#contact"
+                className="flex bg-[#D3E97A]  hover:bg-[#BDD166] w-[160px] lg:w-[187px] gap-4 justify-center items-center h-[48px] lg:h-[54px] rounded-full "
+                href="/JosephThankGodCV.pdf"
+                download
               >
-                <p className=" text-[#0A0A0A] font-semibold manrope text-[13px] lg:text-[16px]">
-                  Contact me
+                <p className=" text-[#0A0A0A]  manrope text-[13px] lg:text-[16px] font-bold">
+                  Download CV
                 </p>
 
-                <div className="bg-black lg:h-[16px] lg:w-[16px] h-[40px] w-[40px] rounded-full flex items-center justify-center">
-                  <i className="ri-arrow-right-up-line lg:hidden text-white text-2xl"></i>
+                <div className="bg-black lg:h-[12px] lg:w-[12px] h-[40px] w-[40px] rounded-full flex items-center justify-center">
+                  <i className="ri-download-2-line lg:hidden text-white text-2xl"></i>
                 </div>
               </a>
 
